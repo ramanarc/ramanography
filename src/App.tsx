@@ -26,6 +26,7 @@ function App() {
         </header>
         <figure>
           <img src={images[currentImage]} onClick={handleClick} alt="an image" />
+          <figcaption>{currentImage + 1} / {images.length}</figcaption>
         </figure>
       </section>
     </>
